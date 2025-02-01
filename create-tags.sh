@@ -1,6 +1,6 @@
 #!/bin/bash
 
-RESOURCE_ID="i-5203422c"
-TAG_NAME="Tag-Name"
+RESOURCE_ID=""
+TAG_NAME="DevOps-Assignment-3"
 
 aws ec2 create-tags --resources $RESOURCE_ID --tags Key=Name,Value=$TAG_NAME
